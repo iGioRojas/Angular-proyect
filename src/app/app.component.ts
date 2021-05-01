@@ -9,8 +9,6 @@ export class AppComponent {
   nombreEmpresa = "Marketing Digital";
   titulo = "paquetes";
   fecha = new Date();
-  mes = "/Mes";
-  precio = 200;
 
   paquetes = [
     {
@@ -40,5 +38,9 @@ export class AppComponent {
       d3: 'Imagen/Video',
       d4: 'Community Manager'
     }
+  ]
+
+  menu = [
+    "Este", "Menú", "se", "hizo", "con","*ngFor"
   ]
 }
